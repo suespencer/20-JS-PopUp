@@ -66,6 +66,7 @@ main{
   
 .modal {
     display: none;
+    /* display: flex; */
     position: fixed;
     right: 0;
     left: 0;
@@ -123,6 +124,10 @@ main{
     justify-content: center;
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
 .modal-btn{
     padding: 10px 24px;
     cursor: pointer;
@@ -154,3 +159,4 @@ input{
     line-height: 23px;
     margin-bottom: 0;
 }
+
